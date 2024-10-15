@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Destion/static/css/main.9ce16a3f.css",
+    "main.js": "/Destion/static/js/main.2dd79685.js",
+    "static/js/453.f7d2d25a.chunk.js": "/Destion/static/js/453.f7d2d25a.chunk.js",
+    "index.html": "/Destion/index.html",
+    "main.9ce16a3f.css.map": "/Destion/static/css/main.9ce16a3f.css.map",
+    "main.2dd79685.js.map": "/Destion/static/js/main.2dd79685.js.map",
+    "453.f7d2d25a.chunk.js.map": "/Destion/static/js/453.f7d2d25a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ce16a3f.css",
+    "static/js/main.2dd79685.js"
+  ]
+}
