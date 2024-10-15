@@ -1,6 +1,7 @@
 // src/Login.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -59,12 +60,12 @@ const Login = () => {
           <a href="#" className="text-blue-600 hover:underline">
             Forgot Password?
           </a>
-          <a
-            href="/signup"  // Update this line
-            className="text-blue-600 hover:underline"
-          >
-            Sign Up
-          </a>
+          <Link
+  to="/signup" // This will now respect the basename "/Destion"
+  className="text-blue-600 hover:underline"
+>
+  Sign Up
+</Link>
         </div>
       </div>
     </div>
